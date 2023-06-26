@@ -1,0 +1,33 @@
+.BottomLine {
+  border-bottom: 2px solid lightgray;
+}
+
+.HorizontalContainer > * {
+  margin: 8px;
+}
+
+.CompanyInfo > * {
+  margin-left: 10px;
+}
+
+.CompanyInfo > * > svg, .Auth > * > svg {
+  margin-bottom: -6px;
+}
+
+.Auth > * {
+  border-left: 2px solid lightgray;
+  padding: 5px;
+}
+
+.Auth > *:last-child {
+  border-right: 2px solid lightgray;
+}
+
+@media only screen and (max-width: 768px) {
+  .Auth > * {
+    border: none;
+  }
+  .Auth > *:last-child {
+    border: none
+  }
+}

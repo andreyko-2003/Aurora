@@ -1,0 +1,57 @@
+.SearchMenuContainer {
+  padding: 25px 0 25px 0;
+}
+
+.SearchInput {
+  width: 500px;
+  border: none;
+  border-bottom: 2px solid black;
+  padding-bottom: 4px;
+  font-size: 16px;
+}
+
+.SearchInput + svg {
+  margin-left: -30px;
+  margin-bottom: -2px;
+}
+
+.SearchMenu:focus {
+  outline: none;
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.Cart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.CartItemsCount {
+  border-radius: 100%;
+  background: #ff77aa;
+  color: white;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .SearchInput {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 464px) {
+  .SearchInput {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 322px) {
+  .SearchInput {
+    width: 100%;
+  }
+}
